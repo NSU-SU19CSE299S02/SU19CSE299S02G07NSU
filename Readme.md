@@ -19,14 +19,14 @@ Section: 02 <br>
 
 # Project Proposal
 
-###Virtual Reading Room
+### Virtual Reading Room
 
 <p>We want to develop an interactive web application which will create an environment/ bridge between student and teacher. This is a virtual reading room where student will get the opportunity to read the reading materials   given by the faculty member. 
 Student and Faculty member can’t meet physically all the times for some reasons. In this case, this application will help the faculty and faculty can provide reading task to the student. Student can be read the file uploaded by the faculty members. The virtual reading room helps the faculty member to create the report that a student has read the reading materials or not. It also shows how many times a student has read the given file.</p>
 
 <h2>Features:</h2>
-..* Faculty member can create a course and assign students to the corresponding course and section.
-..* Only registered users can access the courses.
+*Faculty member can create a course and assign students to the corresponding course and section.
+..*Only registered users can access the courses.
 ..* Users must have valid user ID and Password to access the system.
 ..* In this system student can register a course and view the given reading materials.
 ..* System of this product can detect student and reporting the faculty member that how many times a student read the file.
