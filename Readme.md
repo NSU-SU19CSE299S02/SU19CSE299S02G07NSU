@@ -21,7 +21,7 @@ Section: 02 <br>
 
 ### Virtual Reading Room
 
-<p>We want to develop an interactive web application which will create an environment/ bridge between student and teacher. This is a virtual reading room where student will get the opportunity to read the reading materials   given by the faculty member. 
+<p align="justify">We want to develop an interactive web application which will create an environment/ bridge between student and teacher. This is a virtual reading room where student will get the opportunity to read the reading materials   given by the faculty member. 
 Student and Faculty member can’t meet physically all the times for some reasons. In this case, this application will help the faculty and faculty can provide reading task to the student. Student can be read the file uploaded by the faculty members. The virtual reading room helps the faculty member to create the report that a student has read the reading materials or not. It also shows how many times a student has read the given file.</p>
 
 ### Features:
@@ -40,7 +40,7 @@ Student and Faculty member can’t meet physically all the times for some reason
 
 
 ### Monetization:
-<p>The target user of this application is mainly the student and faculty members of College, University. To use this application they can create a virtual reading room that helps their studies. We will try to launch this application and popularized to the users. We hope, we will get positive feedback from the users and we will go ahead and continue to service the users. There will be 2 versions for this software. One is free version and the other one is paid/pro version. Free version will contain every facility but with a limited usage. On the other hand, paid/pro version user can use all the facilities with no limit. There will be online financial service available like bKash, Ucash, Rocket. Users have to pay an amount to get the paid/pro version.</p>
+<p align="justify">The target user of this application is mainly the student and faculty members of College, University. To use this application they can create a virtual reading room that helps their studies. We will try to launch this application and popularized to the users. We hope, we will get positive feedback from the users and we will go ahead and continue to service the users. There will be 2 versions for this software. One is free version and the other one is paid/pro version. Free version will contain every facility but with a limited usage. On the other hand, paid/pro version user can use all the facilities with no limit. There will be online financial service available like bKash, Ucash, Rocket. Users have to pay an amount to get the paid/pro version.</p>
 
 # Link
 [Git project repository](https://github.com/th1rd/SU19CSE299S02G07NSU)
