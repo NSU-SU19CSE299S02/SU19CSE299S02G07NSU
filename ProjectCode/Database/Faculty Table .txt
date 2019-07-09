@@ -1,0 +1,10 @@
+CREATE TABLE Faculty (
+    FirstName varchar(30)
+    LastName varchar(30),
+    FacultyID int,
+    Phone int,
+    Address varchar(50)
+    Department varchar (20),
+      
+
+);
