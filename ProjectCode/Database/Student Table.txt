@@ -1,0 +1,10 @@
+CREATE TABLE Student (
+    FirstName varchar(30)
+    LastName varchar(30),
+    Address varchar(50)
+    StudentID int,
+    Phone int,
+    Department varchar (20),
+        
+
+);
