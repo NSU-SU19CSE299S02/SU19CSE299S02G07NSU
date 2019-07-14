@@ -25,3 +25,6 @@ class StudentRegistrationForm(UserCreationForm):
             user.save()
 
         return user
+		
+		# This class for Teacher registration form which data saved into database
+class Teachers_Signing_Form(forms.ModelForm):
