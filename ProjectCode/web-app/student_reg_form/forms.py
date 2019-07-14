@@ -28,3 +28,7 @@ class StudentRegistrationForm(UserCreationForm):
 		
 		# This class for Teacher registration form which data saved into database
 class Teachers_Signing_Form(forms.ModelForm):
+
+	 class Meta:
+        model = TeachersInfo
+        fields = ('Username','First_Name','Last_Name','Email','Password','Confirm_Password',) 
