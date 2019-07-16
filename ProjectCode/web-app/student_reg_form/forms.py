@@ -32,3 +32,10 @@ class Teachers_Signing_Form(forms.ModelForm):
 	 class Meta:
         model = TeachersInfo
         fields = ('Username','First_Name','Last_Name','Email','Password','Confirm_Password',) 
+		
+		#For upload pdf file
+class uploadpdf(forms.ModelForm):
+    class Meta:
+        model = pdf_file
+        fields = {'name','pdffile'}
+		
