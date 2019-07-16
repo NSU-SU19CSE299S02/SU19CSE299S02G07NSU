@@ -1,0 +1,8 @@
+CREATE TABLE Admin (
+    FirstName varchar(30)
+    LastName varchar(30),
+    Address varchar(50)
+    AdminID int,
+    Phone int,
+    
+);
