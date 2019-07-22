@@ -11,3 +11,6 @@ class pdf_file(models.Model):
 		
 # Database created for Teacher info
 class TeachersInfo(models.Model):
+ Username = models.CharField(max_length=100)
+    First_Name = models.CharField(max_length=100)
+    Last_Name = models.CharField(max_length=100) 
