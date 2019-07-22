@@ -8,3 +8,6 @@ class pdf_file(models.Model):
 
     def __str__(self):
         return self.name
+		
+# Database created for Teacher info
+class TeachersInfo(models.Model):
