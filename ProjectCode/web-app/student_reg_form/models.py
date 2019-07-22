@@ -14,3 +14,9 @@ class TeachersInfo(models.Model):
  Username = models.CharField(max_length=100)
     First_Name = models.CharField(max_length=100)
     Last_Name = models.CharField(max_length=100) 
+	 Email = models.EmailField()
+    Password = models.CharField(max_length=100)
+    Confirm_Password = models.CharField(max_length=100)
+    
+    def __str__(self):
+        return self.Username
