@@ -2,23 +2,23 @@
 <img src="Documentation/NSU-logo.png">
 </p>
 
-# Group No: 07
+<h1 align="center">  Group No: 07 </h1>
 
-Group members-
+<p align="center"> Group members- </p>
 
-Member 1: <br>
-Name: Md. Zahidul Hasan  <br>
-ID:1510942042 <br>
-Email: zahidul.hasan@northsouth.edu <br>
-Course: CSE-299 <br>
-Section: 02 <br>
+<h3 align="center"> Member 1: <br> </h3>
+<p align="center"> Name: Md. Zahidul Hasan  <br> </p>
+<p align="center"> ID:1510942042 <br> </p>
+<p align="center"> Email: zahidul.hasan@northsouth.edu <br> </p>
+<p align="center"> Course: CSE-299 <br> </p>
+<p align="center"> Section: 02 <br> </p>
 <br>
-Member 2: <br>
-Name: Md. Mekayel Hosen  <br>
-ID: 1620879042 <br>
-Email: mekayel.hosen@northsouth.edu <br>
-Course: CSE-299 <br>
-Section: 02 <br>
+<h3 align="center"> Member 2: <br> </h3>
+<p align="center"> Name: Md. Mekayel Hosen  <br> </p>
+<p align="center"> ID: 1620879042 <br> </p>
+<p align="center"> Email: mekayel.hosen@northsouth.edu <br> </p>
+<p align="center"> Course: CSE-299 <br> </p>
+<p align="center"> Section: 02 <br> </p>
 <br>
 
 # Project Proposal
