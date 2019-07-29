@@ -1,4 +1,6 @@
-<img src="Documentation/NSU-logo.png" alig>
+<p align="center">
+<img src="Documentation/NSU-logo.png">
+</p>
 
 # Group No: 07
 
