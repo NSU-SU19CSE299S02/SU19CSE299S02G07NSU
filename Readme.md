@@ -1,3 +1,5 @@
+<img src="Documentation/NSU-logo.png" alig>
+
 # Group No: 07
 
 Group members-
