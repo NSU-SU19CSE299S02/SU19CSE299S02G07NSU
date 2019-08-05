@@ -25,3 +25,6 @@ def studentform(request):
 def teacher_form(request):
      if request.method == 'POST':
         form = Teachers_Signing_Form(request.POST)
+		if form.is_valid():
+            form.save()           
+            return redirect('homepage')
