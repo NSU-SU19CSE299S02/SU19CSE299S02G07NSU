@@ -28,3 +28,6 @@ def teacher_form(request):
 		if form.is_valid():
             form.save()           
             return redirect('homepage')
+	   else:
+        form = Teachers_Signing_Form()
+        return render(request, 'teacher_signing_form.html', {'form':form})
