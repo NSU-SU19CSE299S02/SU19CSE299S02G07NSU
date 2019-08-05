@@ -17,3 +17,6 @@ def studentform(request):
         if form.is_valid():
             form.save()           
             return redirect('homepage')
+	 else:
+        form = StudentRegistrationForm()
+        return render(request, 'studentform.html', {'form':form})
