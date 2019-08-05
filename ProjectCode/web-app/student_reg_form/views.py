@@ -31,3 +31,10 @@ def teacher_form(request):
 	   else:
         form = Teachers_Signing_Form()
         return render(request, 'teacher_signing_form.html', {'form':form})
+
+# This function works for student Login
+def student_login(request):
+    if request.method == "POST":
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
