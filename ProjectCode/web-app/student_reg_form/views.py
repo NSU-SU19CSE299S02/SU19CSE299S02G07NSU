@@ -9,5 +9,11 @@ from django.core.files.storage import FileSystemStorage
 from .models import pdf_file
 from .forms import uploadpdf 
 
+# This Function works for saving the student information into database
 
-# Create your views here.
+def studentform(request):
+     if request.method == 'POST':
+        form = StudentRegistrationForm(request.POST)
+        if form.is_valid():
+            form.save()           
+            return redirect('homepage')
