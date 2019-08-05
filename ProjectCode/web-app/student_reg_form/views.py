@@ -20,3 +20,8 @@ def studentform(request):
 	 else:
         form = StudentRegistrationForm()
         return render(request, 'studentform.html', {'form':form})
+
+# This Function works for saving the Teacher information into database
+def teacher_form(request):
+     if request.method == 'POST':
+        form = Teachers_Signing_Form(request.POST)
