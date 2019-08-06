@@ -44,3 +44,5 @@ def student_login(request):
           
         else:
              return render(request, "home.html")
+		else:   
+         return render(request, "login.html")
