@@ -53,3 +53,12 @@ def teacher_login_form(request):
         username = request.POST['username']
         password = request.POST['password']
         user = authenticate(request, username=username, password=password)  
+		if user:
+             login(request, user)
+             return redirect("pdf_upload_page")
+          
+        else:
+             return render(request, "home.html")
+            
+    else:   
+         return render(request, "login.html")
