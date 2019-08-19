@@ -73,3 +73,8 @@ def pdf_up(request):
     else:
         form = uploadpdf()
     return render(request, 'fileupload.html', {'forms':form})
+	
+# when student logged in then he see their reading matarials
+def pdf_view(request):
+    pdf = pdf_file.objects.all()
+    return render(request, 'mainpage.html', {'pdf':pdf } )
