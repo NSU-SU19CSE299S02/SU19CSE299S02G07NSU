@@ -67,3 +67,9 @@ def teacher_login_form(request):
 def pdf_up(request):
     if request.method == 'POST':
         form = uploadpdf(request.POST, request.FILES)
+		 if form.is_valid():
+            form.save()
+            return redirect("pdf_upload_page")
+    else:
+        form = uploadpdf()
+    return render(request, 'fileupload.html', {'forms':form})
