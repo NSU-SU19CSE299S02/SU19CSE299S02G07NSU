@@ -62,3 +62,19 @@ def teacher_login_form(request):
             
     else:   
          return render(request, "login.html")
+		 
+# when teacher loged in then he will upload pdf file using this method
+def pdf_up(request):
+    if request.method == 'POST':
+        form = uploadpdf(request.POST, request.FILES)
+		 if form.is_valid():
+            form.save()
+            return redirect("pdf_upload_page")
+    else:
+        form = uploadpdf()
+    return render(request, 'fileupload.html', {'forms':form})
+	
+# when student logged in then he see their reading matarials
+def pdf_view(request):
+    pdf = pdf_file.objects.all()
+    return render(request, 'mainpage.html', {'pdf':pdf } )
