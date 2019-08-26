@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
 # Database created for PDF file
 class pdf_file(models.Model):
     name = models.CharField(max_length=100)
@@ -8,13 +8,13 @@ class pdf_file(models.Model):
 
     def __str__(self):
         return self.name
-		
+
 # Database created for Teacher info
 class TeachersInfo(models.Model):
- Username = models.CharField(max_length=100)
+    Username = models.CharField(max_length=100)
     First_Name = models.CharField(max_length=100)
     Last_Name = models.CharField(max_length=100) 
-	 Email = models.EmailField()
+    Email = models.EmailField()
     Password = models.CharField(max_length=100)
     Confirm_Password = models.CharField(max_length=100)
     
