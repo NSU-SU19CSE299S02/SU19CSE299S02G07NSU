@@ -36,9 +36,15 @@
 	width: 160px;
 	height: 160px;
 	overflow: hidden;
-	border-redius: 50%;
+	border-radius: 50%;
 }
 
 .ps a img{
+	width: 100%
 	filter: grayscale(100%);
+
+}
+
+.ps a:hover > img{
+	filter: none;
 }
