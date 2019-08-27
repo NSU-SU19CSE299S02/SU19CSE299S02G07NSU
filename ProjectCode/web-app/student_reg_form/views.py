@@ -83,3 +83,12 @@ def pdf_up(request):
 def pdf_view(request):
     pdf = pdf_file.objects.all()
     return render(request, 'mainpage.html', {'pdf':pdf } )
+	
+def success(request):
+   return render(request,'home.html')
+
+class test(TemplateView):
+    template_name= "mainpage.html"
+
+class fileupload(TemplateView):
+    template_name= "fileupload.html"
