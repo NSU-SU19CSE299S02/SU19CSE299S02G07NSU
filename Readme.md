@@ -53,10 +53,26 @@ Free version will contain every facility but with a limited usage. On the other 
 # Link
 [Git project repository](https://github.com/th1rd/SU19CSE299S02G07NSU)
 
+#What We Could Not Do:
+<p align="justify"> 
+<ul> Monetization </ul>
+<ul> Define service page </ul>
+<ul> Downloading a file </ul>
+</p>
+
 # Screenshot:
 
 <p align="center">
-<img src="ProjectCode/HTML Form/img/Screenshot/home.jpg">
-</p>
+<img src="ProjectCode/HTML Form/img/Screenshot/home.JPG">
+</p> <br> <br>
+<p align="center">
+<img src="ProjectCode/HTML Form/img/Screenshot/service.JPG">
+</p> <br> <br>
+<p align="center">
+<img src="ProjectCode/HTML Form/img/Screenshot/about.JPG">
+</p> <br> <br>
+<p align="center">
+<img src="ProjectCode/HTML Form/img/Screenshot/login.JPG">
+</p> <br> <br>
 
 
