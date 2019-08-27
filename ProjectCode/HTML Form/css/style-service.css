@@ -3,9 +3,9 @@ body, html {
   height: 100%
 }
 
-.bgimg {
+body {
   /* Background image */
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/construction.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/pic1.jpg');
   /* Full-screen */
   height: 100%;
   /* Center the background image */
@@ -22,7 +22,33 @@ body, html {
   font-size: 25px;
 }
 
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
 
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
 
 /* Position text in the top-left corner */
 .topleft {
