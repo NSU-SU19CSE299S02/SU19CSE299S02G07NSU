@@ -53,11 +53,21 @@ Free version will contain every facility but with a limited usage. On the other 
 # Link
 [Git project repository](https://github.com/th1rd/SU19CSE299S02G07NSU)
 
+# What we need to open this project
+<p align="justify"> 
+Python 3.6 or more and Django 2.2 or more version will be needed to open the project file
+</p>
+
+
 # What We Could Not Do:
 <p align="justify"> 
 <ul> Monetization </ul>
 <ul> Define service page </ul>
 <ul> Downloading a file </ul>
+</p>
+
+<p align="justify"> 
+We believe we can make everything fine if we get more time for it.
 </p>
 
 # Screenshot:
