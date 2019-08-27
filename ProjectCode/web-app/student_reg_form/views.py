@@ -17,7 +17,7 @@ def studentform(request):
         if form.is_valid():
             form.save()           
             return redirect('homepage')
-	 else:
+     else:
         form = StudentRegistrationForm()
         return render(request, 'studentform.html', {'form':form})
 
@@ -25,10 +25,10 @@ def studentform(request):
 def teacher_form(request):
      if request.method == 'POST':
         form = Teachers_Signing_Form(request.POST)
-		if form.is_valid():
+        if form.is_valid():
             form.save()           
             return redirect('homepage')
-	   else:
+     else:
         form = Teachers_Signing_Form()
         return render(request, 'teacher_signing_form.html', {'form':form})
 
@@ -37,14 +37,17 @@ def student_login(request):
     if request.method == "POST":
         username = request.POST['username']
         password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
-		if user:
+        user = authenticate(request, username=username, password=password)        
+        if user:
              login(request, user)
+          #    print('akhtar')
              return redirect("mainpage")
           
         else:
+          #    print('zaman')
              return render(request, "home.html")
-		else:   
+            
+    else:   
          return render(request, "login.html")
 		 
 # This function works for Teachers Login
@@ -52,12 +55,14 @@ def teacher_login_form(request):
     if request.method == "POST":
         username = request.POST['username']
         password = request.POST['password']
-        user = authenticate(request, username=username, password=password)  
-		if user:
+        user = authenticate(request, username=username, password=password)        
+        if user:
              login(request, user)
+             print('akhtar')
              return redirect("pdf_upload_page")
           
         else:
+             print('zaman')
              return render(request, "home.html")
             
     else:   
@@ -67,14 +72,23 @@ def teacher_login_form(request):
 def pdf_up(request):
     if request.method == 'POST':
         form = uploadpdf(request.POST, request.FILES)
-		 if form.is_valid():
+        if form.is_valid():
             form.save()
             return redirect("pdf_upload_page")
     else:
         form = uploadpdf()
     return render(request, 'fileupload.html', {'forms':form})
-	
+
 # when student logged in then he see their reading matarials
 def pdf_view(request):
     pdf = pdf_file.objects.all()
     return render(request, 'mainpage.html', {'pdf':pdf } )
+	
+def success(request):
+   return render(request,'home.html')
+
+class test(TemplateView):
+    template_name= "mainpage.html"
+
+class fileupload(TemplateView):
+    template_name= "fileupload.html"

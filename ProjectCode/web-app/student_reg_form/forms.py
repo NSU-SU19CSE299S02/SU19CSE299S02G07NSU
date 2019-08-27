@@ -17,7 +17,7 @@ class StudentRegistrationForm(UserCreationForm):
             'password2'
         }
 		
-     def save(self, commit = True):
+    def save(self, commit = True):
         user = super(StudentRegistrationForm, self).save(commit=False)
         user.first_name = self.cleaned_data['first_name']
         user.last_name = self.cleaned_data['last_name']
@@ -36,7 +36,7 @@ class Teachers_Signing_Form(forms.ModelForm):
         model = TeachersInfo
         fields = ('Username','First_Name','Last_Name','Email','Password','Confirm_Password',)
 		
-	class uploadpdf(forms.ModelForm):
+class uploadpdf(forms.ModelForm):
 		
     class Meta:
         model = pdf_file
