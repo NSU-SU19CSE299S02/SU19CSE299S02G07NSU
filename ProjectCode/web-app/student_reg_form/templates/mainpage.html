@@ -24,6 +24,16 @@
 			{% for pdf in pdf %}
 		<tr>
 			<td>{{ pdf.name }}</td>
+			
+			<!-- After Clicking Read Button PDF will be open -->
+			<td><a href="{{ pdf.pdffile.url }}"> <input type="button" class="button" value="Read"> </a></td>
+
+			<!-- After Clicking click Button PDF webcamera will take picture after 5 seconds -->
+			<td><input type="button" value="click" name="aa" class="button" onclick="location.href= {% url 'image' %}"></td>
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
   
   
 
